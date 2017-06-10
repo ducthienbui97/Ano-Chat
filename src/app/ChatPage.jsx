@@ -90,7 +90,8 @@ export default class ChatPage extends React.PureComponent{
 		}
 
 	render() {
-		let messages = this.state.chatMsgs.map((mess,idx) =>this.displayMessage(mess,idx))
+		if(this.state.connected){
+			let messages = this.state.chatMsgs.map((mess,idx) =>this.displayMessage(mess,idx))
 			return (
 					<div>
 						<Div>
@@ -100,8 +101,6 @@ export default class ChatPage extends React.PureComponent{
 						<ChatForm handleClick = {(mess) => this.sendMessage(mess)}/>
 					</div>
 				);
-		if(this.state.connected){
-			
 			}
 		else if(this.state.initialized){
 			return <Div><H1>Waiting for someone to connect</H1></Div>;
