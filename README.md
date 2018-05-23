@@ -1,5 +1,5 @@
 # Ano Chat
-[![GitLicense](https://gitlicense.com/ducthienbui97/Ano-Chat/badge)](https://gitlicense.com/ducthienbui97/Ano-Chat/license)
+[![GitLicense](https://gitlicense.com/badge/ducthienbui97/ano-chat)](https://gitlicense.com/license/ducthienbui97/ano-chat)
 
 Webchat allow user to chat with stranger anonymously without login or any third party involvement.
 
