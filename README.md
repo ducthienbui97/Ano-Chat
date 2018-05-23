@@ -4,7 +4,9 @@
 Webchat allow user to chat with stranger anonymously without login or any third party involvement.
 
 
-# [Demo](http://anochat.thienbui.tech)
+# Demo
+
+Demo is not working anymore
 
 # Todo list:
 - Take into account user disconnect
